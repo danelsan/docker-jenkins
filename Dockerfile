@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:2.485-slim
 
 USER root
 RUN curl https://get.docker.com/ > dockerinstall \
